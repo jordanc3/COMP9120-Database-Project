@@ -1,0 +1,3 @@
+TODO:
+- Customers must have a specified mobile number. Does this mean the customers number should be unique or not null?
+- should customers address be not null?  
