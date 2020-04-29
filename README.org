@@ -3,4 +3,4 @@
   This is a group assignment for COMP9120. The participants (authors) are:
   - [[https://github.com/Hixan][Alex Elias]]
   - [[https://github.com/from81][Kai Hirota]]
-  - Jordan Clark
+  - [[https://github.com/jordanc3][Jordan Clark]]
