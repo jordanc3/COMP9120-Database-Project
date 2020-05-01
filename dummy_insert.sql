@@ -17,3 +17,10 @@ INSERT INTO Courier(courierId, name, address, mobile) VALUES (1, 'TheFirstCoutie
 INSERT INTO Delivery(deliveryId, courierId, timeReady, timeDelivered) VALUES (1, 1, CURRENT_TIMESTAMP - interval '2 hour', CURRENT_TIMESTAMP);
 INSERT INTO "Order"(orderId, customerId, staffId, deliveryId, totalCharge) VALUES (1, 1, 1, 1, 112.98);
 INSERT INTO OrderItem(orderItemId, orderId, customerId, menuItemId, quantity, charge) VALUES (1, 1, 1, 1, 2, 100);
+
+-- populate staff table
+INSERT INTO Staff(staffid, position, name) VALUES (1, 'General Manager', 'Generic Name');
+INSERT INTO Staff(staffid, position, name) VALUES (2, 'General Manager', 'Alex');
+INSERT INTO Staff(staffid, position, name) VALUES (3, 'General Manager', 'Kai');
+INSERT INTO Staff(staffid, position, name) VALUES (4, 'General Manager', 'Jordan');
+INSERT INTO Staff(staffid, position, name) VALUES (5, '', 'Other Name');
